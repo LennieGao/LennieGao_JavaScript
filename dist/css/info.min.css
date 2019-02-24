@@ -1,0 +1,565 @@
+@charset "UTF-8";
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, dl, dd, hr, input, textarea, button, option, fieldset, legend, td, th {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #666; }
+
+li {
+  list-style: none; }
+
+/* img{display:block;} */
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, input {
+  outline: none; }
+
+body {
+  font: 12px "微软雅黑"; }
+
+a:hover {
+  color: #FC4C65; }
+
+.topbox {
+  width: 100%;
+  height: 37px;
+  background: #F2F2F2; }
+  .topbox .top {
+    width: 1200px;
+    margin: 0 auto;
+    color: #6C6C6C; }
+    .topbox .top div:nth-child(1) {
+      float: left;
+      line-height: 37px; }
+      .topbox .top div:nth-child(1) span {
+        float: left;
+        margin-right: 10px; }
+      .topbox .top div:nth-child(1) div {
+        float: left;
+        margin-right: 10px; }
+      .topbox .top div:nth-child(1) a {
+        float: left;
+        margin-right: 10px; }
+      .topbox .top div:nth-child(1) #areaBox {
+        height: 26px;
+        width: 148px;
+        border: 1px solid #CCCCCC;
+        margin: 5px 14px 0px 6px;
+        background: #fff;
+        line-height: 26px;
+        text-align: center; }
+      .topbox .top div:nth-child(1) #place div {
+        text-align: center;
+        line-height: 26px;
+        width: 30%;
+        cursor: default; }
+        .topbox .top div:nth-child(1) #place div:hover {
+          background: lightcoral; }
+    .topbox .top div:nth-child(2) {
+      float: right;
+      line-height: 37px; }
+      .topbox .top div:nth-child(2) span {
+        border-right: 1px solid #946E97;
+        padding: 0 13px; }
+      .topbox .top div:nth-child(2) span:nth-child(3) {
+        border: none; }
+
+.head {
+  height: 120px;
+  width: 1200px;
+  margin: 0 auto; }
+  .head img {
+    font-size: 0;
+    display: inline-block;
+    margin-top: 33px;
+    vertical-align: bottom; }
+  .head h1,
+  .head > div:nth-child(2) {
+    float: left; }
+  .head div img {
+    margin: 50px 70px 0 57px; }
+  .head .search {
+    width: 474px;
+    height: 34px;
+    margin-top: 45px;
+    border: 3px solid #FC4B65;
+    border-radius: 3px 0 0 3px; }
+  .head .searchBtn {
+    height: 40px;
+    width: 103px;
+    background: #FC4B65;
+    border: none;
+    outline: none;
+    margin-left: -5px;
+    vertical-align: bottom;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 3px 3px 0; }
+  .head .shopBtn {
+    width: 130px;
+    height: 38px;
+    background: #F9F9F9;
+    border: 1px solid #D8D8D8;
+    outline: none;
+    margin-left: 14px; }
+  .head .searchList {
+    margin-left: 469px;
+    margin-top: 7px; }
+    .head .searchList li {
+      float: left;
+      margin-right: 11px; }
+
+.navBox {
+  border-bottom: 3px solid #FC4B65;
+  width: 100%;
+  /* alltype */ }
+  .navBox .nav {
+    width: 1200px;
+    height: 36px;
+    margin: 0 auto; }
+  .navBox .nav > ul > li {
+    float: left;
+    padding-right: 77px;
+    text-align: center;
+    line-height: 36px; }
+    .navBox .nav > ul > li:nth-child(1) {
+      background: #FC4B65 url(../img/main/jiantou.png) no-repeat 155px center;
+      height: 36px;
+      width: 205px;
+      font-size: 16px;
+      color: white;
+      padding: 0;
+      margin-right: 43px; }
+    .navBox .nav > ul > li:nth-child(3) {
+      background: url(../img/main/tv.png) no-repeat left center;
+      padding-left: 30px; }
+  .navBox #allType > ul {
+    width: 205px;
+    height: 405px;
+    background: #FC4B65;
+    position: absolute;
+    z-index: 1000;
+    display: none; }
+    .navBox #allType > ul > li {
+      height: 52px;
+      width: 205px;
+      text-align: center;
+      line-height: 52px;
+      font-size: 12px; }
+      .navBox #allType > ul > li:nth-child(1) {
+        margin-top: 20px; }
+      .navBox #allType > ul > li:hover {
+        background: #CC4156; }
+    .navBox #allType > ul > div {
+      height: 401px;
+      width: 900px;
+      background: #F6E8F7ee;
+      position: absolute;
+      top: 3px;
+      left: 205px;
+      display: none; }
+      .navBox #allType > ul > div > div:nth-child(1) {
+        height: 60px;
+        width: 860px;
+        margin: 0 auto;
+        border-bottom: 1px dashed #2F2F2F; }
+        .navBox #allType > ul > div > div:nth-child(1) > h3 {
+          width: 84px;
+          height: 28px;
+          border-radius: 14px;
+          font-size: 14px;
+          color: #676769;
+          margin-top: 20px;
+          float: left;
+          border: 1px solid #676769;
+          line-height: 28px; }
+        .navBox #allType > ul > div > div:nth-child(1) > ul {
+          color: #676769;
+          height: 60px;
+          float: left;
+          line-height: 20px; }
+          .navBox #allType > ul > div > div:nth-child(1) > ul > li {
+            float: left;
+            padding: 0 13px 0 13px;
+            margin-top: 25px;
+            height: 20px;
+            font-size: 14px;
+            border-right: 1px solid #676769; }
+      .navBox #allType > ul > div > div:nth-child(2) {
+        width: 860px;
+        height: 340px;
+        margin: 0 auto; }
+        .navBox #allType > ul > div > div:nth-child(2) > a {
+          width: 150px;
+          height: 225px;
+          float: left;
+          color: black;
+          margin-left: 15px;
+          margin-top: 15px;
+          font-size: 12px;
+          display: block; }
+          .navBox #allType > ul > div > div:nth-child(2) > a img {
+            width: 150px; }
+          .navBox #allType > ul > div > div:nth-child(2) > a span {
+            display: block;
+            line-height: 25px;
+            color: red;
+            text-align: left; }
+          .navBox #allType > ul > div > div:nth-child(2) > a p {
+            display: block;
+            line-height: 25px;
+            text-align: left; }
+      .navBox #allType > ul > div h2 {
+        width: 100%;
+        text-align: left;
+        color: #676769;
+        font-size: 16px;
+        margin-top: 15px; }
+  .navBox #allType:hover > ul {
+    display: block; }
+  .navBox #allType > ul > li > a {
+    height: 52px;
+    width: 205px;
+    display: block;
+    text-align: center;
+    line-height: 52px;
+    font-size: 12px;
+    color: white; }
+  .navBox #allType > a:hover {
+    color: white; }
+  .navBox #allType > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white; }
+
+/* infoContent */
+#infoContent {
+  width: 1200px;
+  margin: 0 auto;
+  /* background: lightcoral; */ }
+  #infoContent #listTree {
+    width: 1200px;
+    height: 40px;
+    margin: 0 auto;
+    line-height: 40px; }
+    #infoContent #listTree > li {
+      float: left;
+      color: #797C6B;
+      margin: 0 0 0 9px; }
+  #infoContent #itemInfo {
+    width: 1200px;
+    height: 490px;
+    border-top: 1px solid #F5F5F5;
+    margin: 0 auto; }
+    #infoContent #itemInfo #piclist {
+      height: 490px;
+      width: 94px;
+      float: left; }
+      #infoContent #itemInfo #piclist > li {
+        width: 90px;
+        height: 90px;
+        border: 2px solid #CCCCCC;
+        margin-top: 43px; }
+        #infoContent #itemInfo #piclist > li > img {
+          width: 100%;
+          font-size: 0; }
+    #infoContent #itemInfo #everyInfo {
+      width: 836px;
+      height: 383px;
+      float: left;
+      margin-left: 19px; }
+      #infoContent #itemInfo #everyInfo > div:nth-child(1) {
+        height: 383px;
+        width: 380px;
+        display: inline-block;
+        border: 1px solid #CBCBCB;
+        position: relative; }
+        #infoContent #itemInfo #everyInfo > div:nth-child(1) .smallimg {
+          width: 100%; }
+        #infoContent #itemInfo #everyInfo > div:nth-child(1) .bigbox {
+          height: 383px;
+          width: 380px;
+          position: absolute;
+          top: 0;
+          left: 397px;
+          border: 1px solid #CBCBCB;
+          overflow: hidden;
+          display: none; }
+        #infoContent #itemInfo #everyInfo > div:nth-child(1) .bigimg {
+          width: 200%;
+          position: absolute;
+          left: 0;
+          top: 0;
+          z-index: 10; }
+        #infoContent #itemInfo #everyInfo > div:nth-child(1) .block {
+          height: 50%;
+          width: 50%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: lightcoral;
+          opacity: 0.4;
+          display: none; }
+        #infoContent #itemInfo #everyInfo > div:nth-child(1) .mark {
+          display: block;
+          width: 380px;
+          height: 383px;
+          position: absolute;
+          z-index: 10;
+          top: 0;
+          left: 0;
+          opacity: 0.3; }
+      #infoContent #itemInfo #everyInfo > div:nth-child(2) {
+        height: 100%;
+        width: 440px;
+        margin-left: 13px;
+        display: inline-block;
+        vertical-align: top; }
+        #infoContent #itemInfo #everyInfo > div:nth-child(2) > h2 {
+          border-bottom: 1px dotted black;
+          display: block;
+          line-height: 17px;
+          font-size: 16px;
+          height: 33px; }
+        #infoContent #itemInfo #everyInfo > div:nth-child(2) > span:nth-child(2) {
+          display: block;
+          height: 30px;
+          line-height: 30px;
+          padding-left: 6px; }
+        #infoContent #itemInfo #everyInfo > div:nth-child(2) > div:nth-child(3) {
+          padding-left: 6px;
+          width: 434px;
+          height: 46px;
+          line-height: 46px;
+          background: #F3F3F3;
+          vertical-align: middle; }
+        #infoContent #itemInfo #everyInfo > div:nth-child(2) > div:nth-child(3) > span:nth-child(2) {
+          font-size: 18px;
+          color: #DB0B07;
+          font-weight: bold;
+          vertical-align: middle; }
+      #infoContent #itemInfo #everyInfo #shopBox {
+        height: 32px;
+        width: 118px;
+        background: lightblue;
+        margin: 50px 10px; }
+        #infoContent #itemInfo #everyInfo #shopBox button {
+          width: 29px;
+          height: 32px;
+          text-align: center;
+          line-height: 32px;
+          border: none;
+          font-size: 20px;
+          background: #DEDEDE;
+          vertical-align: top;
+          cursor: pointer; }
+        #infoContent #itemInfo #everyInfo #shopBox input {
+          width: 60px;
+          height: 30px;
+          border: 1px solid #DEDEDE;
+          vertical-align: top;
+          border-left: none;
+          border-right: none;
+          text-align: center; }
+        #infoContent #itemInfo #everyInfo #shopBox + div {
+          width: 106px;
+          height: 30px;
+          display: block;
+          color: white;
+          background: #FC4B65;
+          text-align: center;
+          margin-left: 10px;
+          font-size: 14px;
+          line-height: 30px;
+          cursor: pointer; }
+  #infoContent .area {
+    margin-top: 35px;
+    height: 26px;
+    display: inline-block;
+    text-align: middle;
+    line-height: 26px; }
+  #infoContent #areaBox {
+    height: 26px;
+    width: 148px;
+    border: 1px solid #CCCCCC;
+    margin: 5px 14px 0px 6px;
+    background: #fff;
+    line-height: 26px;
+    text-align: middle;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative; }
+  #infoContent #place {
+    display: none;
+    width: 442px;
+    position: absolute;
+    z-index: 9;
+    top: 420px;
+    background: white;
+    border: 1px solid #CECBCE; }
+    #infoContent #place div {
+      text-align: center;
+      line-height: 26px;
+      width: 30%;
+      cursor: default;
+      display: inline-block; }
+    #infoContent #place div:hover {
+      background: lightcoral;
+      cursor: pointer; }
+  #infoContent .erwei {
+    height: 315px;
+    width: 203px;
+    float: right;
+    border: 1px solid #EFEFEF;
+    text-align: center; }
+    #infoContent .erwei h2 {
+      height: 45px;
+      text-align: center;
+      line-height: 45px;
+      font-size: 16px; }
+    #infoContent .erwei span {
+      line-height: 20px;
+      display: block; }
+    #infoContent .erwei + a {
+      width: 200px;
+      height: 30px;
+      background: #F3F3F3;
+      border: 1px solid #EDEDED;
+      display: block;
+      float: right;
+      margin-top: 15px;
+      line-height: 30px;
+      text-align: center; }
+  #infoContent #sameThing {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 100px; }
+    #infoContent #sameThing ul:nth-child(1) {
+      width: 220px;
+      border: 1px solid #CBCBCB;
+      border-top: 2px solid #FC4C61;
+      text-align: center; }
+      #infoContent #sameThing ul:nth-child(1) li {
+        width: 192px;
+        height: 208px;
+        border-bottom: 1px dashed #C8C8C8;
+        text-align: center;
+        margin: 0 auto; }
+      #infoContent #sameThing ul:nth-child(1) h3 {
+        height: 36px;
+        width: 210px;
+        background: #F8F8F8;
+        font-size: 14px;
+        font-weight: bold;
+        padding-left: 10px;
+        line-height: 36px; }
+      #infoContent #sameThing ul:nth-child(1) img {
+        width: 50%; }
+      #infoContent #sameThing ul:nth-child(1) span {
+        display: block; }
+      #infoContent #sameThing ul:nth-child(1) div {
+        color: #D61913;
+        font-size: 14px;
+        margin: 35px auto 26px;
+        font-weight: bold; }
+  #infoContent #itemPic {
+    display: inline-block; }
+
+.foot {
+  height: 120px;
+  width: 100%;
+  background: #EFEFEF; }
+  .foot ul {
+    width: 1200px;
+    margin: 50px auto 0; }
+    .foot ul li {
+      width: 400px;
+      height: 120px;
+      float: left;
+      text-align: left;
+      line-height: 23px; }
+      .foot ul li a {
+        display: block;
+        margin-top: 26px;
+        font-size: 16px;
+        color: #595757;
+        font-weight: bold; }
+      .foot ul li img {
+        float: left;
+        margin: 0 20px 0 45px;
+        margin-top: 26px; }
+
+.bottom {
+  width: 100%;
+  margin: 0 auto; }
+  .bottom ul {
+    margin: 0 auto;
+    width: 1200px;
+    height: 198px; }
+    .bottom ul li {
+      float: left; }
+      .bottom ul li:nth-child(1) {
+        width: 468px;
+        height: 198px; }
+        .bottom ul li:nth-child(1) img {
+          margin-top: 20px;
+          display: inline-block;
+          width: 69px;
+          margin-right: 5px; }
+        .bottom ul li:nth-child(1) div {
+          display: inline-block;
+          vertical-align: top;
+          width: 338px;
+          margin-top: 30px;
+          line-height: 23px;
+          font-size: 12px; }
+      .bottom ul li:not(:nth-child(1)) {
+        height: 198px;
+        width: 122px; }
+        .bottom ul li:not(:nth-child(1)) h3 {
+          font-weight: bold;
+          margin: 27px 0 10px;
+          font-size: 14px; }
+        .bottom ul li:not(:nth-child(1)) a {
+          margin-top: 13px;
+          display: block; }
+
+.friend {
+  height: 120px;
+  width: 100%;
+  border-bottom: 29px solid #F12E24; }
+  .friend div {
+    text-align: center;
+    color: #7C707C; }
+  .friend ul {
+    margin: 0 auto;
+    height: 74px;
+    width: 1200px;
+    text-align: center; }
+    .friend ul li {
+      display: inline-block;
+      margin: 33px 20px 0; }
+
+.rightBox {
+  width: 35px;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #888988; }
+  .rightBox ul {
+    margin-top: 50px;
+    padding: 0 2px; }
+    .rightBox ul li {
+      padding: 25px 9px;
+      border-top: 1px solid white; }
+      .rightBox ul li li a {
+        font-size: 14px;
+        color: white; }

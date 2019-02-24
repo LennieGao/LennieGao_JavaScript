@@ -1,0 +1,394 @@
+[
+    [{
+        "img": "img/main/hot_list1.jpg",
+        "title": "欧格斯肠道水疗仪组",
+        "price": "¥1580.00",
+        "href": "1001"
+    }, {
+        "img": "img/main/hot_list2.jpg",
+        "title": "首席官-玛利万向轮旅行箱套组",
+        "price": "¥798.00",
+        "href": "1002"
+    }, {
+        "img": "img/main/hot_list3.jpg",
+        "title": "上海胡庆余堂破壁灵芝孢子粉",
+        "price": "¥998.00",
+        "href": "1003"
+    }, {
+        "img": "img/main/hot_list4.jpg",
+        "title": "达米尼安妮曼妙智能对开门冰箱",
+        "price": "¥2999.00",
+        "href": "1004"
+    }, {
+        "img": "img/main/hot_list5.jpg",
+        "title": "五谷营养粉家庭分享组",
+        "price": "¥298.00",
+        "href": "1005"
+    }, {
+        "img": "img/main/hot_list6.jpg",
+        "title": "天津传统老味道午餐肉组合",
+        "price": "¥298.00",
+        "href": "1006"
+    }],
+    [{
+            "title": "全球购"
+        },
+        {
+            "title1": ""
+        },
+        {
+            "img": "img/main/ShopList1_title.png"
+        }, {
+            "img": "img/main/list1_1.jpg",
+            "title": "日本进口山本汉方控压茶压流茶",
+            "price": "¥166.00",
+            "href": "1007"
+        }, {
+            "img": "img/main/list1_2.jpg",
+            "title": "超润面膜滋润保湿补水",
+            "price": "¥113.00",
+            "href": "1008"
+        }, {
+            "img": "img/main/list1_3.jpg",
+            "title": "超润面膜滋润保湿补水",
+            "price": "¥113.00",
+            "href": "1009"
+        }, {
+            "img": "img/main/list1_4.jpg",
+            "title": "美白保湿收毛孔薏仁水-D",
+            "price": "¥140.00",
+            "href": "1010"
+        }, {
+            "img": "img/main/list1_5.jpg",
+            "title": "美白保湿收毛孔薏仁水-D",
+            "price": "¥123.00",
+            "href": "1011"
+        }, {
+            "img": "img/main/list1_6.jpg",
+            "title": "薏仁保湿面霜175g-D",
+            "price": "¥109.00",
+            "href": "1012"
+        }
+    ],
+    [{
+            "title": "家居生活"
+        },
+        {
+            "title1": "家居用品",
+            "title2": "浴室用品",
+            "title3": "厨卫用品"
+        },
+
+        {
+            "img": "img/main/ShopList2_title.jpg"
+        }, {
+            "img": "img/main/list2_1.jpg",
+            "title": "京美咲折叠遇水开花睛雨伞-D",
+            "price": "¥126.00",
+            "href": "1013"
+        }, {
+            "img": "img/main/list2_2.jpg",
+            "title": "肯泰多功能晾晒梯套组",
+            "price": "¥298.00",
+            "href": "1014"
+        }, {
+            "img": "img/main/list2_3.jpg",
+            "title": "年氢水富氢水杯健康组",
+            "price": "¥699.00",
+            "href": "1015"
+        }, {
+            "img": "img/main/list2_4.jpg",
+            "title": "V6无线电动工具升级组",
+            "price": "¥219.00",
+            "href": "1016"
+        }, {
+            "img": "img/main/list2_5.jpg",
+            "title": "LAROMA硅胶拔罐器家庭组",
+            "price": "¥298.00",
+            "href": "1017"
+        }, {
+            "img": "img/main/list2_6.jpg",
+            "title": "万利达多功能养生壶组",
+            "price": "¥298.00",
+            "href": "1018"
+        }
+    ],
+    [{
+            "title": "服饰配件"
+        },
+        {
+            "title1": "鞋帽配饰",
+            "title2": "手表",
+            "title3": "服装内衣"
+        },
+
+        {
+            "img": "img/main/ShopList3_title.jpg"
+        }, {
+            "img": "img/main/list3_1.jpg",
+            "title": "纽巴伦运动功能慢跑鞋",
+            "price": "¥299.00",
+            "href": "1019"
+        }, {
+            "img": "img/main/list3_2.jpg",
+            "title": "金舵老船长特惠皮具组",
+            "price": "¥99.00",
+            "href": "1020"
+        }, {
+            "img": "img/main/list3_3.jpg",
+            "title": "奢华舞钻璀璨腕表组",
+            "price": "¥598.00",
+            "href": "1021"
+        }, {
+            "img": "img/main/list3_4.jpg",
+            "title": "花花公子时尚1+1女鞋组",
+            "price": "¥199.00",
+            "href": "1022"
+        }, {
+            "img": "img/main/list3_5.jpg",
+            "title": "BC名模太阳镜家庭组",
+            "price": "¥299.00",
+            "href": "1023"
+        }, {
+            "img": "img/main/list3_6.jpg",
+            "title": "HUGOMOFELL换片老花镜套组",
+            "price": "¥399.00",
+            "href": "1024"
+        }
+    ],
+    [{
+            "title": "食品健康"
+        },
+        {
+            "title1": "茶酒礼品",
+            "title2": "营养食品"
+        },
+
+        {
+            "img": "img/main/ShopList4_title.jpg"
+        }, {
+            "img": "img/main/list4_1.jpg",
+            "title": "五粮液股份东方娇子精酿组",
+            "price": "¥699.00",
+            "href": "1025"
+        }, {
+            "img": "img/main/list4_2.jpg",
+            "title": "法国卡斯顿百年老藤珍酿组",
+            "price": "¥398.00",
+            "href": "1026"
+        }, {
+            "img": "img/main/list4_3.jpg",
+            "title": "御陈一号小青柑茶叶套组",
+            "price": "¥399.00",
+            "href": "1027"
+        }, {
+            "img": "img/main/list4_4.jpg",
+            "title": "汾牌V12组",
+            "price": "¥498.00",
+            "href": "1028"
+        }, {
+            "img": "img/main/list4_5.jpg",
+            "title": "裕隆盛曼松御品贡茶",
+            "price": "¥998.00",
+            "href": "1029"
+        }, {
+            "img": "img/main/list4_6.jpg",
+            "title": "谷林茶坊武夷山桐木关金骏眉",
+            "price": "¥499.00",
+            "href": "1030"
+        }
+    ],
+    [{
+            "title": "珠宝收藏"
+        },
+        {
+            "title1": "珠宝配饰",
+            "title2": "收藏品"
+        },
+
+        {
+            "img": "img/main/ShopList5_title.jpg"
+        }, {
+            "img": "img/main/list5_1.jpg",
+            "title": "花开富贵翡翠组",
+            "price": "¥6980.00",
+            "href": "1031"
+        }, {
+            "img": "img/main/list5_2.jpg",
+            "title": "风华绝代孔雀石镶嵌饰品套组",
+            "price": "¥999.00",
+            "href": "1032"
+        }, {
+            "img": "img/main/list5_3.jpg",
+            "title": "鼎云轩永恒星耀莫桑钻戒套组",
+            "price": "¥2980.00",
+            "href": "1033"
+        }, {
+            "img": "img/main/list5_4.jpg",
+            "title": "富贵荣华菠菜绿碧玉珍藏组",
+            "price": "¥3980.00",
+            "href": "1034"
+        }, {
+            "img": "img/main/list5_5.jpg",
+            "title": "喜歌五福临门和田玉牌套组",
+            "price": "¥999.00",
+            "href": "1035"
+        }, {
+            "img": "img/main/list5_6.jpg",
+            "title": "鸿运当头南红玛瑙饰品镶嵌套组",
+            "price": "¥998.00",
+            "href": "1036"
+        }
+    ],
+    [{
+            "title": "美容美发"
+        },
+        {
+            "title1": "美容化妆",
+            "title2": "功能护肤",
+            "title3": "基础护理"
+        },
+
+        {
+            "img": "img/main/ShopList6_title.jpg"
+        }, {
+            "img": "img/main/list6_1.jpg",
+            "title": "TT复活草爆水双耳挂拉提面膜组",
+            "price": "¥262.00",
+            "href": "1037"
+        }, {
+            "img": "img/main/list6_2.jpg",
+            "title": "花酿肌慧无瑕祛斑套组",
+            "price": "¥399.00",
+            "href": "1038"
+        }, {
+            "img": "img/main/list6_3.jpg",
+            "title": "可贝尔珍珠抗皱眼纹消100片组",
+            "price": "¥299.00",
+            "href": "1039"
+        }, {
+            "img": "img/main/list6_4.jpg",
+            "title": "韩愢果染梳健康组",
+            "price": "¥298.00",
+            "href": "1040"
+        }, {
+            "img": "img/main/list6_5.jpg",
+            "title": "希卡露姿V7全能霜",
+            "price": "¥399.00",
+            "href": "1041"
+        }, {
+            "img": "img/main/list6_6.jpg",
+            "title": "Hopkinslab提拉紧致修复眼霜",
+            "price": "¥458.00",
+            "href": "1042"
+        }
+    ],
+    [{
+            "title": "保健养生"
+        },
+        {
+            "title1": "保健用品",
+            "title2": "运动户外"
+        },
+
+        {
+            "img": "img/main/ShopList7_title.jpg"
+        }, {
+            "img": "img/main/list7_1.jpg",
+            "title": "智灵牌冬虫夏草胶丸尊享组",
+            "price": "¥998.00",
+            "href": "1043"
+        }, {
+            "img": "img/main/list7_2.jpg",
+            "title": "药王泉润枝冬虫夏草胶囊健康组",
+            "price": "¥999.00",
+            "href": "1044"
+        }, {
+            "img": "img/main/list7_3.jpg",
+            "title": "山益堂伊朗进口藏红花养生组",
+            "price": "¥568.00",
+            "href": "1045"
+        }, {
+            "img": "img/main/list7_4.jpg",
+            "title": "沙棘冻干精萃粉",
+            "price": "¥999.00",
+            "href": "1046"
+        }, {
+            "img": "img/main/list7_5.jpg",
+            "title": "日本进口道清源纳豆加赠组",
+            "price": "¥1575.00",
+            "href": "1047"
+        }, {
+            "img": "img/main/list7_6.jpg",
+            "title": "金迪元鱼油软胶囊组",
+            "price": "¥299.00",
+            "href": "1048"
+        }
+    ],
+    [{
+            "title": "数码家电"
+        },
+        {
+            "title1": "日用家电"
+        },
+
+        {
+            "img": "img/main/ShopList8_title.jpg"
+        }, {
+            "img": "img/main/list8_1.jpg",
+            "title": "达米尼8.5KG变频滚筒洗衣机",
+            "price": "¥2499.00",
+            "href": "1049"
+        }, {
+            "img": "img/main/list8_2.jpg",
+            "title": "CLARA多功能加热破壁料理机",
+            "price": "¥599.00",
+            "href": "1050"
+        }, {
+            "img": "img/main/list8_3.jpg",
+            "title": "奔腾4D智能浮动剃须刀套组",
+            "price": "¥263.00",
+            "href": "1051"
+        }, {
+            "img": "img/main/list8_4.jpg",
+            "title": "科沃斯mini3扫地机器人",
+            "price": "¥1143.00",
+            "href": "1052"
+        }, {
+            "img": "img/main/list8_5.jpg",
+            "title": "东芝65英寸4K超高清电视",
+            "price": "¥4199.00",
+            "href": "1053"
+        }, {
+            "img": "img/main/list8_6.jpg",
+            "title": "荣耀SL智能睡眠按摩椅",
+            "price": "¥5990.00",
+            "href": "1054"
+        }
+    ],
+    [{
+            "title": "美国苹果动感传能保暖运动男鞋",
+            "price": "¥298.00",
+            "web": "网友推荐",
+            "href": "1055"
+        },
+        {
+            "title": "德国爱乐仕全钢锅具组",
+            "price": "¥498.00",
+            "web": "网友推荐",
+            "href": "1056"
+        },
+        {
+            "title": "艾兰得氨糖软骨素维D钙片",
+            "price": "¥298.00",
+            "web": "网友推荐",
+            "href": "1057"
+        },
+        {
+            "title": "森之良品综合果蔬脆休闲组",
+            "price": "¥298.00",
+            "web": "网友推荐",
+            "href": "1058"
+        }
+    ]
+]

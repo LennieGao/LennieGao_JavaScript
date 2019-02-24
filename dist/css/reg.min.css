@@ -1,0 +1,280 @@
+@charset "UTF-8";
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, dl, dd, hr, input, textarea, button, option, fieldset, legend, td, th {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #666; }
+
+li {
+  list-style: none; }
+
+/* img{display:block;} */
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, input {
+  outline: none; }
+
+body {
+  font: 12px "微软雅黑"; }
+
+a:hover {
+  color: #FC4C65; }
+
+.topbox {
+  width: 100%;
+  height: 37px;
+  background: #F2F2F2; }
+  .topbox .top {
+    width: 1200px;
+    margin: 0 auto;
+    color: #6C6C6C; }
+    .topbox .top div:nth-child(1) {
+      float: left;
+      line-height: 37px; }
+      .topbox .top div:nth-child(1) span {
+        float: left;
+        margin-right: 10px; }
+      .topbox .top div:nth-child(1) div {
+        float: left;
+        margin-right: 10px; }
+      .topbox .top div:nth-child(1) a {
+        float: left;
+        margin-right: 10px; }
+      .topbox .top div:nth-child(1) #areaBox {
+        height: 26px;
+        width: 148px;
+        border: 1px solid #CCCCCC;
+        margin: 5px 14px 0px 6px;
+        background: #fff;
+        line-height: 26px;
+        text-align: center; }
+      .topbox .top div:nth-child(1) #place div {
+        text-align: center;
+        line-height: 26px;
+        width: 30%;
+        cursor: default; }
+        .topbox .top div:nth-child(1) #place div:hover {
+          background: lightcoral; }
+    .topbox .top div:nth-child(2) {
+      float: right;
+      line-height: 37px; }
+      .topbox .top div:nth-child(2) span {
+        border-right: 1px solid #946E97;
+        padding: 0 13px; }
+      .topbox .top div:nth-child(2) span:nth-child(3) {
+        border: none; }
+
+.head {
+  height: 120px;
+  width: 1200px;
+  margin: 0 auto; }
+  .head img {
+    font-size: 0;
+    display: inline-block;
+    margin-top: 33px;
+    vertical-align: bottom; }
+  .head h1,
+  .head > div:nth-child(2) {
+    float: left; }
+  .head div img {
+    margin: 50px 70px 0 57px; }
+  .head .search {
+    width: 474px;
+    height: 34px;
+    margin-top: 45px;
+    border: 3px solid #FC4B65;
+    border-radius: 3px 0 0 3px; }
+  .head .searchBtn {
+    height: 40px;
+    width: 103px;
+    background: #FC4B65;
+    border: none;
+    outline: none;
+    margin-left: -5px;
+    vertical-align: bottom;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 3px 3px 0; }
+  .head .shopBtn {
+    width: 130px;
+    height: 38px;
+    background: #F9F9F9;
+    border: 1px solid #D8D8D8;
+    outline: none;
+    margin-left: 14px; }
+  .head .searchList {
+    margin-left: 469px;
+    margin-top: 7px; }
+    .head .searchList li {
+      float: left;
+      margin-right: 11px; }
+
+.line {
+  width: 100%;
+  margin-top: 36px;
+  border-bottom: 3px solid #fc4b65; }
+
+.regBox {
+  height: 707px;
+  width: 100%; }
+  .regBox .regMain {
+    width: 982px;
+    height: 592px;
+    margin: 40px auto;
+    border: 1px solid black;
+    overflow: hidden; }
+    .regBox .regMain .title {
+      margin-top: -1px;
+      margin-left: -1px;
+      width: 982px;
+      height: 40px;
+      line-height: 40px;
+      background: #e6e6e6;
+      border: 1px solid #656565; }
+      .regBox .regMain .title span:nth-child(1) {
+        float: left;
+        font-weight: bold;
+        margin-left: 13px;
+        font-size: 16px; }
+      .regBox .regMain .title span:nth-child(3) {
+        font-size: 14px;
+        float: right; }
+      .regBox .regMain .title a {
+        font-size: 14px;
+        float: right;
+        width: 42px;
+        height: 25px;
+        display: block;
+        line-height: 25px;
+        text-align: center;
+        margin: 7px 7px 0;
+        background: #f84a6b;
+        color: white; }
+    .regBox .regMain .content {
+      width: 910px;
+      margin: 0 auto; }
+      .regBox .regMain .content > div {
+        width: 117px;
+        height: 28px;
+        background: #fc4b65;
+        color: white;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        margin-top: 38px; }
+      .regBox .regMain .content form {
+        border-top: 1px solid black;
+        width: 745px;
+        padding-left: 165px;
+        padding-top: 65px;
+        height: 415px; }
+        .regBox .regMain .content form span {
+          color: red; }
+        .regBox .regMain .content form label {
+          font-size: 14px;
+          display: block;
+          height: 30px;
+          width: 355px;
+          line-height: 30px;
+          margin-bottom: 20px;
+          position: relative; }
+          .regBox .regMain .content form label .spans {
+            width: 500px;
+            position: absolute;
+            left: 400px;
+            display: none; }
+          .regBox .regMain .content form label input {
+            width: 206px;
+            height: 26px;
+            float: right;
+            margin-right: 35px;
+            border: 1px solid #cccccc;
+            outline: none; }
+        .regBox .regMain .content form > input {
+          height: 27px;
+          width: 127px;
+          border: none;
+          background: #fb4b62;
+          color: white;
+          margin-left: 100px; }
+
+.foot {
+  height: 120px;
+  width: 100%;
+  background: #EFEFEF; }
+  .foot ul {
+    width: 1200px;
+    margin: 50px auto 0; }
+    .foot ul li {
+      width: 400px;
+      height: 120px;
+      float: left;
+      text-align: left;
+      line-height: 23px; }
+      .foot ul li a {
+        display: block;
+        margin-top: 26px;
+        font-size: 16px;
+        color: #595757;
+        font-weight: bold; }
+      .foot ul li img {
+        float: left;
+        margin: 0 20px 0 45px;
+        margin-top: 26px; }
+
+.bottom {
+  width: 100%;
+  margin: 0 auto; }
+  .bottom ul {
+    margin: 0 auto;
+    width: 1200px;
+    height: 198px; }
+    .bottom ul li {
+      float: left; }
+      .bottom ul li:nth-child(1) {
+        width: 468px;
+        height: 198px; }
+        .bottom ul li:nth-child(1) img {
+          margin-top: 20px;
+          display: inline-block;
+          width: 69px;
+          margin-right: 5px; }
+        .bottom ul li:nth-child(1) div {
+          display: inline-block;
+          vertical-align: top;
+          width: 338px;
+          margin-top: 30px;
+          line-height: 23px;
+          font-size: 12px; }
+      .bottom ul li:not(:nth-child(1)) {
+        height: 198px;
+        width: 122px; }
+        .bottom ul li:not(:nth-child(1)) h3 {
+          font-weight: bold;
+          margin: 27px 0 10px;
+          font-size: 14px; }
+        .bottom ul li:not(:nth-child(1)) a {
+          margin-top: 13px;
+          display: block; }
+
+.friend {
+  height: 120px;
+  width: 100%;
+  border-bottom: 29px solid #F12E24; }
+  .friend div {
+    text-align: center;
+    color: #7C707C; }
+  .friend ul {
+    margin: 0 auto;
+    height: 74px;
+    width: 1200px;
+    text-align: center; }
+    .friend ul li {
+      display: inline-block;
+      margin: 33px 20px 0; }

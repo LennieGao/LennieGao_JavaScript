@@ -1,0 +1,363 @@
+@import 'public' ;
+a:hover {
+    color: #FC4C65;
+};
+// --------------------top--------------------
+.topbox {
+    width: 100%;
+    height: 37px;
+    background: #F2F2F2;
+	.top {
+	    width: 1200px;
+	    margin: 0 auto;
+	    color: #6C6C6C;
+		& div:nth-child(1) {
+		    float: left;
+		    line-height: 37px;
+			& span{
+				float: left;
+				margin-right: 10px;
+			}
+			& div{
+				float: left;
+				margin-right: 10px;
+				
+			}
+			& a{
+				float: left;
+				margin-right: 10px;
+			} 
+			#areaBox {
+					height: 26px;
+					width: 148px;
+					border: 1px solid #CCCCCC;
+					margin: 5px 14px 0px 6px;
+					background: #fff;
+					line-height: 26px;
+					text-align: center;
+			}
+			#place div {
+			    text-align: center;
+			    line-height: 26px;
+			    width: 30%;
+			    cursor: default;
+				&:hover {
+					background: lightcoral;
+				}
+			}
+			
+			
+			
+		}
+		& div:nth-child(2) {
+			float: right;
+			line-height: 37px;
+				
+				& span {
+				    border-right: 1px solid #946E97;
+					padding: 0 13px;
+
+				}
+				& span:nth-child(3) {
+					border: none;
+				}
+			}
+		
+	}
+}
+//---------------------head-------------------
+.head {
+    height: 120px;
+    width: 1200px;
+    margin: 0 auto;
+	& img{
+		font-size: 0;
+		display: inline-block;
+		margin-top: 33px;
+		vertical-align: bottom;
+	}
+	& h1,
+	&>div:nth-child(2) {
+    float: left;
+	 }
+	& div img {
+	    margin: 50px 70px 0 57px;
+	}
+	& .search {
+	    width: 474px;
+	    height: 34px;
+	    margin-top: 45px;
+	    border: 3px solid #FC4B65;
+	    border-radius: 3px 0 0 3px;
+	}
+	.searchBtn {
+	    height: 40px;
+	    width: 103px;
+	    background: #FC4B65;
+	    border: none;
+	    outline: none;
+	    margin-left: -5px;
+	    vertical-align: bottom;
+	    font-size: 18px;
+	    color: white;
+	    border-radius: 0 3px 3px 0;
+	}
+	.shopBtn {
+	    width: 130px;
+	    height: 38px;
+	    background: #F9F9F9;
+	    border: 1px solid #D8D8D8;
+	    outline: none;
+	    margin-left: 14px;
+	}
+	.searchList {
+	    margin-left: 469px;
+	    margin-top: 7px;
+		li {
+		    float: left;
+		    margin-right: 11px;
+		}
+	}
+
+}
+// ----------line--------------------------
+.line {
+  width: 100%;
+  margin-top: 36px;
+  border-bottom: 3px solid #fc4b65;
+}
+//-----------------placeArea--------------------------------
+.placeArea {
+  height: 66px;
+  width: 985px;
+  margin: 0 auto;
+  text-align: right;
+  #areaBox {
+    height: 26px;
+    width: 148px;
+    border: 1px solid #CCCCCC;
+    margin: 5px 14px 0px 6px;
+    background: #fff;
+    line-height: 26px;
+    text-align: middle;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+  }
+  
+  #place {
+    display: none;
+    width: 442px;
+    position: absolute;
+    z-index: 9;
+    top: 230px;
+    right: 30px;
+    background: white;
+    border: 1px solid #CECBCE;
+	& div {
+	  text-align: center;
+	  line-height: 26px;
+	  width: 30%;
+	  cursor: default;
+	  display: inline-block;
+	  &:hover {
+	  background: lightcoral;
+	  }
+	}
+	
+	
+  }
+}
+
+.area {
+  margin-top: 35px;
+  height: 26px;
+  display: inline-block;
+  text-align: middle;
+  line-height: 26px;
+}
+// --------------content--------------------------
+
+#content{
+  width: 985px;
+  margin: 0 auto;
+  #shopTab{
+    width: 985px;
+	& th{
+	  height:30px;
+	}
+	& td{
+	  text-align: center;
+	  vertical-align: middle;
+	  height:78px;
+	  font-size: 14px;
+	  border-bottom: 2px dotted #CCCCCC;
+	  & img{
+	    width: 62px;
+	    border: 1px solid #E1E1E1;
+	    vertical-align: middle;
+	  }
+	  & img+span{
+	    vertical-align: middle;
+	  }
+	}
+	& tr:nth-child(1){
+	  background: #F5F5F5;
+	}
+  }
+}
+
+.shopBox{
+  height: 32px;
+  width: 118px;
+  background: lightblue;
+  margin: 50px 10px;
+  & button{
+    width: 29px;
+    height:32px;
+    text-align: center;
+    line-height: 32px;
+    border: none;
+    font-size: 20px;
+    background: #DEDEDE;
+    vertical-align: top;
+    cursor: pointer;
+  }
+  & input{
+    width: 60px;
+    height: 30px;
+    border: 1px solid #DEDEDE;
+    vertical-align: top;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+  }
+}
+
+
+
+
+
+//----------------------------------------------
+.foot {
+    height: 120px;
+    width: 100%;
+    background: #EFEFEF;
+	& ul {
+	    width: 1200px;
+	    margin: 50px auto 0;
+		& li {
+		    width: 400px;
+		    height: 120px;
+		    float: left;
+		    text-align: left;
+		    line-height: 23px;
+			& a {
+			    display: block;
+			    margin-top: 26px;
+			    font-size: 16px;
+			    color: #595757;
+			    font-weight: bold;
+			}
+			& img {
+			    float: left;
+			    margin: 0 20px 0 45px;
+			    margin-top: 26px;
+			}
+		}
+	}
+}
+
+// ---------------------bottom---------------------
+
+.bottom {
+    width: 100%;
+    margin: 0 auto;
+	& ul {
+	    margin: 0 auto;
+	    width: 1200px;
+	    height: 198px;
+		& li {
+		    float: left;
+			&:nth-child(1) {
+			    width: 468px;
+			    height: 198px;
+				& img {
+				    margin-top: 20px;
+				    display: inline-block;
+				    width: 69px;
+				    margin-right: 5px;
+				}
+				& div {
+				    display: inline-block;
+				    vertical-align: top;
+				    width: 338px;
+				    margin-top: 30px;
+				    line-height: 23px;
+				    font-size: 12px;
+				}
+			}
+			&:not(:nth-child(1)) {
+				height: 198px;
+				width: 122px;
+				& h3 {
+				    font-weight: bold;
+				    margin: 27px 0 10px;
+				    font-size: 14px;
+				}
+				& a {
+				    margin-top: 13px;
+				    display: block;
+				}
+			}
+			
+		}
+		
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// ----------------friend--------------------------
+
+.friend {
+    height: 120px;
+    width: 100%;
+    border-bottom: 29px solid #F12E24;
+	& div {
+	    text-align: center;
+	    color: #7C707C;
+	}
+	& ul {
+	    margin: 0 auto;
+	    height: 74px;
+	    width: 1200px;
+	    text-align: center;
+		& li {
+		    display: inline-block;
+		    margin: 33px 20px 0;
+		}
+		
+	}
+}

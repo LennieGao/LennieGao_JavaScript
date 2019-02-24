@@ -1,0 +1,488 @@
+@charset "UTF-8";
+body, p, h1, h2, h3, h4, h5, h6, ul, ol, dl, dd, hr, input, textarea, button, option, fieldset, legend, td, th {
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: #666; }
+
+li {
+  list-style: none; }
+
+/* img{display:block;} */
+h1, h2, h3, h4, h5, h6, b, strong {
+  font-weight: normal; }
+
+em, i {
+  font-style: normal; }
+
+a, input {
+  outline: none; }
+
+body {
+  font: 12px "微软雅黑"; }
+
+a:hover {
+  color: #FC4C65; }
+
+.topbox {
+  width: 100%;
+  height: 37px;
+  background: #F2F2F2; }
+  .topbox .top {
+    width: 1200px;
+    margin: 0 auto;
+    color: #6C6C6C; }
+    .topbox .top div:nth-child(1) {
+      float: left;
+      line-height: 37px; }
+      .topbox .top div:nth-child(1) span {
+        float: left;
+        margin-right: 10px; }
+      .topbox .top div:nth-child(1) div {
+        float: left;
+        margin-right: 10px; }
+      .topbox .top div:nth-child(1) a {
+        float: left;
+        margin-right: 10px; }
+      .topbox .top div:nth-child(1) #areaBox {
+        height: 26px;
+        width: 148px;
+        border: 1px solid #CCCCCC;
+        margin: 5px 14px 0px 6px;
+        background: #fff;
+        line-height: 26px;
+        text-align: center; }
+      .topbox .top div:nth-child(1) #place div {
+        text-align: center;
+        line-height: 26px;
+        width: 30%;
+        cursor: default; }
+        .topbox .top div:nth-child(1) #place div:hover {
+          background: lightcoral; }
+    .topbox .top div:nth-child(2) {
+      float: right;
+      line-height: 37px; }
+      .topbox .top div:nth-child(2) span {
+        border-right: 1px solid #946E97;
+        padding: 0 13px; }
+      .topbox .top div:nth-child(2) span:nth-child(3) {
+        border: none; }
+
+.head {
+  height: 120px;
+  width: 1200px;
+  margin: 0 auto; }
+  .head img {
+    font-size: 0;
+    display: inline-block;
+    margin-top: 33px;
+    vertical-align: bottom; }
+  .head h1,
+  .head > div:nth-child(2) {
+    float: left; }
+  .head div img {
+    margin: 50px 70px 0 57px; }
+  .head .search {
+    width: 474px;
+    height: 34px;
+    margin-top: 45px;
+    border: 3px solid #FC4B65;
+    border-radius: 3px 0 0 3px; }
+  .head .searchBtn {
+    height: 40px;
+    width: 103px;
+    background: #FC4B65;
+    border: none;
+    outline: none;
+    margin-left: -5px;
+    vertical-align: bottom;
+    font-size: 18px;
+    color: white;
+    border-radius: 0 3px 3px 0; }
+  .head .shopBtn {
+    width: 130px;
+    height: 38px;
+    background: #F9F9F9;
+    border: 1px solid #D8D8D8;
+    outline: none;
+    margin-left: 14px; }
+  .head .searchList {
+    margin-left: 469px;
+    margin-top: 7px; }
+    .head .searchList li {
+      float: left;
+      margin-right: 11px; }
+
+.navBox {
+  border-bottom: 3px solid #FC4B65;
+  width: 100%;
+  /* alltype */ }
+  .navBox .nav {
+    width: 1200px;
+    height: 36px;
+    margin: 0 auto; }
+  .navBox .nav > ul > li {
+    float: left;
+    padding-right: 77px;
+    text-align: center;
+    line-height: 36px; }
+    .navBox .nav > ul > li:nth-child(1) {
+      background: #FC4B65 url(../img/main/jiantou.png) no-repeat 155px center;
+      height: 36px;
+      width: 205px;
+      font-size: 16px;
+      color: white;
+      padding: 0;
+      margin-right: 43px; }
+    .navBox .nav > ul > li:nth-child(3) {
+      background: url(../img/main/tv.png) no-repeat left center;
+      padding-left: 30px; }
+  .navBox #allType > ul {
+    width: 205px;
+    height: 405px;
+    background: #FC4B65;
+    position: absolute;
+    z-index: 1000;
+    display: none; }
+    .navBox #allType > ul > li {
+      height: 52px;
+      width: 205px;
+      text-align: center;
+      line-height: 52px;
+      font-size: 12px; }
+      .navBox #allType > ul > li:nth-child(1) {
+        margin-top: 20px; }
+      .navBox #allType > ul > li:hover {
+        background: #CC4156; }
+    .navBox #allType > ul > div {
+      height: 401px;
+      width: 900px;
+      background: #F6E8F7ee;
+      position: absolute;
+      top: 3px;
+      left: 205px;
+      display: none; }
+      .navBox #allType > ul > div > div:nth-child(1) {
+        height: 60px;
+        width: 860px;
+        margin: 0 auto;
+        border-bottom: 1px dashed #2F2F2F; }
+        .navBox #allType > ul > div > div:nth-child(1) > h3 {
+          width: 84px;
+          height: 28px;
+          border-radius: 14px;
+          font-size: 14px;
+          color: #676769;
+          margin-top: 20px;
+          float: left;
+          border: 1px solid #676769;
+          line-height: 28px; }
+        .navBox #allType > ul > div > div:nth-child(1) > ul {
+          color: #676769;
+          height: 60px;
+          float: left;
+          line-height: 20px; }
+          .navBox #allType > ul > div > div:nth-child(1) > ul > li {
+            float: left;
+            padding: 0 13px 0 13px;
+            margin-top: 25px;
+            height: 20px;
+            font-size: 14px;
+            border-right: 1px solid #676769; }
+      .navBox #allType > ul > div > div:nth-child(2) {
+        width: 860px;
+        height: 340px;
+        margin: 0 auto; }
+        .navBox #allType > ul > div > div:nth-child(2) > a {
+          width: 150px;
+          height: 225px;
+          float: left;
+          color: black;
+          margin-left: 15px;
+          margin-top: 15px;
+          font-size: 12px;
+          display: block; }
+          .navBox #allType > ul > div > div:nth-child(2) > a img {
+            width: 150px; }
+          .navBox #allType > ul > div > div:nth-child(2) > a span {
+            display: block;
+            line-height: 25px;
+            color: red;
+            text-align: left; }
+          .navBox #allType > ul > div > div:nth-child(2) > a p {
+            display: block;
+            line-height: 25px;
+            text-align: left; }
+      .navBox #allType > ul > div h2 {
+        width: 100%;
+        text-align: left;
+        color: #676769;
+        font-size: 16px;
+        margin-top: 15px; }
+  .navBox #allType:hover > ul {
+    display: block; }
+  .navBox #allType > ul > li > a {
+    height: 52px;
+    width: 205px;
+    display: block;
+    text-align: center;
+    line-height: 52px;
+    font-size: 12px;
+    color: white; }
+  .navBox #allType > a:hover {
+    color: white; }
+  .navBox #allType > a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: white; }
+
+#banner {
+  width: 100%;
+  height: 420px;
+  overflow: hidden; }
+  #banner div {
+    right: 0;
+    left: 0; }
+
+.shopBox {
+  width: 100%;
+  background: #FBFBFB; }
+  .shopBox .shopbox_1 {
+    height: 176px;
+    width: 1200px;
+    background: #F9F9F9;
+    margin: 0px auto;
+    padding-top: 10px; }
+    .shopBox .shopbox_1 li {
+      float: left;
+      margin-right: 10px; }
+  .shopBox .hot_item {
+    height: 755px;
+    width: 1200px;
+    margin: 0 auto;
+    background: #F9F9F9; }
+    .shopBox .hot_item h2 {
+      font-size: 26px;
+      color: #FC4C63;
+      display: inline;
+      font-weight: bold; }
+    .shopBox .hot_item span {
+      font-size: 16px; }
+    .shopBox .hot_item > ul > li {
+      width: 235px;
+      height: 319px;
+      background: #fff;
+      float: left;
+      margin-top: 20px;
+      margin-right: 21px;
+      border: 1px solid #F2F2F2; }
+      .shopBox .hot_item > ul > li a {
+        width: 235px;
+        height: 319px; }
+      .shopBox .hot_item > ul > li:nth-child(4), .shopBox .hot_item > ul > li:nth-child(7) {
+        margin-right: 0; }
+      .shopBox .hot_item > ul > li:nth-child(1) {
+        height: 669px;
+        width: 404px;
+        margin-top: 20px;
+        margin-right: 38px;
+        overflow: hidden; }
+      .shopBox .hot_item > ul > li div:nth-child(2) {
+        margin-left: 7px;
+        color: #7C7471; }
+      .shopBox .hot_item > ul > li div:nth-child(3) {
+        margin-left: 7px;
+        margin-top: 30px;
+        color: #DB0C12;
+        font-weight: bold;
+        font-size: 16px; }
+      .shopBox .hot_item > ul > li:not(:first-child):hover {
+        box-shadow: 0px 0px 20px #ccc; }
+      .shopBox .hot_item > ul > li #shopScroll {
+        margin: 30px auto;
+        width: 669px;
+        height: 404px;
+        position: relative; }
+        .shopBox .hot_item > ul > li #shopScroll img {
+          width: 360px;
+          height: 360px;
+          margin: 40px 20px;
+          display: block; }
+        .shopBox .hot_item > ul > li #shopScroll span:nth-child(3) {
+          height: 12px;
+          display: block;
+          width: 100px;
+          background: #FC4C63; }
+        .shopBox .hot_item > ul > li #shopScroll #shopScroll_pic {
+          height: 669px;
+          position: absolute; }
+          .shopBox .hot_item > ul > li #shopScroll #shopScroll_pic div:nth-child(2) {
+            color: #6F7267; }
+          .shopBox .hot_item > ul > li #shopScroll #shopScroll_pic div:nth-child(3) {
+            color: #E91600;
+            font-weight: bold;
+            margin-top: 9px;
+            margin-bottom: 36px; }
+        .shopBox .hot_item > ul > li #shopScroll #shopScroll_dot {
+          list-style: none;
+          position: absolute;
+          top: 388px;
+          left: 160px; }
+          .shopBox .hot_item > ul > li #shopScroll #shopScroll_dot li {
+            width: 14px;
+            height: 14px;
+            list-style: none;
+            border-radius: 50%;
+            float: left;
+            margin-left: 5px; }
+  .shopBox .shoplist {
+    width: 1200px;
+    height: 900px;
+    background: #FAFAFA;
+    margin: 0 auto; }
+    .shopBox .shoplist > div {
+      width: 100%;
+      border-bottom: 1px solid #DC1405;
+      margin-bottom: 34px;
+      padding-bottom: 4px; }
+    .shopBox .shoplist h2 {
+      font-size: 26px;
+      height: 30px;
+      font-weight: bold; }
+      .shopBox .shoplist h2 span {
+        height: 36px;
+        width: 78px;
+        text-align: center;
+        line-height: 36px;
+        font-size: 14px;
+        font-weight: normal;
+        background: #FAFAFA;
+        float: right;
+        margin-top: -2px;
+        box-sizing: border-box; }
+        .shopBox .shoplist h2 span:hover {
+          border: 2px solid #DD1305;
+          border-bottom: none;
+          margin-top: -4px;
+          height: 40px; }
+    .shopBox .shoplist li {
+      float: left;
+      height: 380px;
+      width: 280px;
+      border: 1px solid #F2F2F2;
+      background: #fff;
+      margin: 0 23px 20px 0; }
+      .shopBox .shoplist li a img {
+        margin: 0 auto;
+        width: 100%; }
+      .shopBox .shoplist li:nth-child(4), .shopBox .shoplist li:nth-child(8) {
+        margin-right: 0; }
+      .shopBox .shoplist li:nth-child(2) {
+        width: 588px;
+        height: 380px; }
+      .shopBox .shoplist li div:nth-child(2) {
+        margin-left: 7px;
+        color: #7C7471; }
+      .shopBox .shoplist li div:nth-child(3) {
+        margin-left: 7px;
+        margin-top: 30px;
+        color: #DB0C12;
+        font-weight: bold;
+        font-size: 12px; }
+      .shopBox .shoplist li:not(:nth-child(2)):hover {
+        box-shadow: 0px 0px 20px #ccc; }
+
+.foot {
+  height: 120px;
+  width: 100%;
+  background: #EFEFEF; }
+  .foot ul {
+    width: 1200px;
+    margin: 50px auto 0; }
+    .foot ul li {
+      width: 400px;
+      height: 120px;
+      float: left;
+      text-align: left;
+      line-height: 23px; }
+      .foot ul li a {
+        display: block;
+        margin-top: 26px;
+        font-size: 16px;
+        color: #595757;
+        font-weight: bold; }
+      .foot ul li img {
+        float: left;
+        margin: 0 20px 0 45px;
+        margin-top: 26px; }
+
+.bottom {
+  width: 100%;
+  margin: 0 auto; }
+  .bottom ul {
+    margin: 0 auto;
+    width: 1200px;
+    height: 198px; }
+    .bottom ul li {
+      float: left; }
+      .bottom ul li:nth-child(1) {
+        width: 468px;
+        height: 198px; }
+        .bottom ul li:nth-child(1) img {
+          margin-top: 20px;
+          display: inline-block;
+          width: 69px;
+          margin-right: 5px; }
+        .bottom ul li:nth-child(1) div {
+          display: inline-block;
+          vertical-align: top;
+          width: 338px;
+          margin-top: 30px;
+          line-height: 23px;
+          font-size: 12px; }
+      .bottom ul li:not(:nth-child(1)) {
+        height: 198px;
+        width: 122px; }
+        .bottom ul li:not(:nth-child(1)) h3 {
+          font-weight: bold;
+          margin: 27px 0 10px;
+          font-size: 14px; }
+        .bottom ul li:not(:nth-child(1)) a {
+          margin-top: 13px;
+          display: block; }
+
+.friend {
+  height: 120px;
+  width: 100%;
+  border-bottom: 29px solid #F12E24; }
+  .friend div {
+    text-align: center;
+    color: #7C707C; }
+  .friend ul {
+    margin: 0 auto;
+    height: 74px;
+    width: 1200px;
+    text-align: center; }
+    .friend ul li {
+      display: inline-block;
+      margin: 33px 20px 0; }
+
+.rightBox {
+  width: 35px;
+  height: 100%;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background: #888988; }
+  .rightBox ul {
+    margin-top: 50px;
+    padding: 0 2px; }
+    .rightBox ul li {
+      padding: 25px 9px;
+      border-top: 1px solid white; }
+      .rightBox ul li li a {
+        font-size: 14px;
+        color: white; }
